@@ -528,7 +528,7 @@ p {
   padding: 100px;
   align-items: center;
   justify-content: center;
-  min-width: 100vh;
+  min-width: 20vh;
 }
 
 #contact .contact-items {
@@ -544,12 +544,14 @@ p {
 }
 
 #contact .contact-item {
-  width: auto;
+  width: 350px;
+  height: 300px;
   padding: 20px;
   text-align: center;
   border-radius: 10px;
+  margin: 15px;
+  margin-left: -25px;
   padding: 30px;
-  margin: 30px;
   justify-content: center;
   display: flex;
   align-items: center;
